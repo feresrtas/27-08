@@ -1,0 +1,9 @@
+{% extends 'student/base.html' %} {% block container %}
+
+<h1>Student App</h1>
+<h1>Merhaba Team</h1>
+<a href="{% url 'index' %}">HOME</a>
+<a href="{% url 'list' %}">LIST</a>
+<a href="{% url 'add' %}">ADD</a>
+
+{% endblock container %}
